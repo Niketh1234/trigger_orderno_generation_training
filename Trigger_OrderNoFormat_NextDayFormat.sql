@@ -3,7 +3,7 @@ select * from items
 
 create table orders(ordno char(10) primary key,customername varchar(40),orderdate date,gross_amt float)
 
-insert into orders values('value5','satvik',getdate(),1001)
+insert into orders values('value5','some name',getdate(),1001)
 select * from orders
 --truncate table orders
 
